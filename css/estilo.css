@@ -15,7 +15,9 @@ body {
 }
 
 .pitch {
+  /* position: absolute; */
   margin-top: 10px;
+  margin-bottom: auto;
   width: 100%;
   height: 100vh;
 }
@@ -134,7 +136,9 @@ body {
   -ms-user-select: none;
   user-select: none;
 }
-
+.form_c{
+  margin-top: 5%;
+}
 .c_botao {
   color: white;
 }
@@ -150,10 +154,18 @@ body {
   min-height: 280px;
   /* previne a distorção da imagen*/
 }
-
-footer {
-  text-align: center;
+footer{
   color: white;
+}
+.f_pitch {
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+  height: 50px;
+  margin-top: 10px;
+  margin-bottom: 0px;
+  text-align: center;
+
 }
 
 @media (min-width: 768px) {
