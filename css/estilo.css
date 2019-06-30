@@ -5,24 +5,24 @@
   box-sizing: border-box;
 }
 
-/* Set a background color */
+/*  BG da Pagina */
 body {
-
   font-family: Helvetica, sans-serif;
-
 }
-.b_navc{
+
+.b_navc {
   color: white;
 }
-.pitch {
-  margin-right: 10;
-  width: 100%;
-  height: 721px;
-}
-.manut{
 
+.pitch {
+  margin-top: 10px;
   width: 100%;
-  height: 100%;
+  height: 100vh;
+}
+
+.manut {
+  width: 100%;
+  height: 100vh;
   background-color: white;
 }
 
@@ -134,27 +134,28 @@ body {
   -ms-user-select: none;
   user-select: none;
 }
-.c_botao{
+
+.c_botao {
   color: white;
 }
-.carousel{
 
-    margin-top: 5px;
-    margin-bottom: 5px;
+.carousel {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  background-color: #bac0c3;
+}
 
+.carousel-item {
+  text-align: center;
+  min-height: 280px;
+  /* previne a distorção da imagen*/
 }
-.carousel-item{
-    text-align: center;
-    min-height: 280px; /* Prevent carousel from being distorted if for some reason image doesn't load */
-}
-.bs-example{
-background-color: #bac0c3;
 
-}
-footer{
+footer {
   text-align: center;
   color: white;
 }
+
 @media (min-width: 768px) {
   .bd-placeholder-img-lg {
     font-size: 3.5rem;
